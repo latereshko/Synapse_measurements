@@ -1,5 +1,7 @@
-# Synapse_measurements
-Plot synapse measurements made in Metamorph with R 
+# Synapse_measurements with 'metamorph_synapse_R_B_colocalize.JNL'
+Quantify intensity of fluorescence at colocalized puncta (synaptic markers) on GFP+ neurons with Metamorph journal.
+'metamorph_synapse_G_R_B_colocalize.JNL' separates channels, uses granularity app to identify colocalization between channels, and logs intensity of all channels within ROI drawn. Final steps are optional to measure dendrite lengths within the ROI.
+Clean data & plot synapse measurements made in Metamorph with R .
 
 # Synapse_intensity_metamorph_to_R
 Use this script to get plot intensity values from Metamorph summary data.
